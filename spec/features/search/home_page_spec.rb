@@ -5,9 +5,10 @@ RSpec.describe "from the home page" do
     it "returns members of the order of the Phoenix of that house" do
       visit "/"
 
-      find(:house).find("Gryffindor").select_option
+      # find(:house).find("Gryffindor").select_option
+      # default is gryffindor
 
-      click_on 'Search for Members'
+      click_on 'Search For Members'
 
       expect(current_path).to eq("/search")
 
@@ -19,11 +20,12 @@ RSpec.describe "from the home page" do
         expect(page).to have_css(".house")
         expect(page).to have_css(".Patronus")
       end
-# And for each of the members I should see:
-# - The name of the member
-# - The members role (if it exists)
-# - The house the member belongs to
-# - The Patronus of the member (if it exists)
+
+  # And for each of the members I should see:
+  # - The name of the member
+  # - The members role (if it exists)
+  # - The house the member belongs to
+  # - The Patronus of the member (if it exists)
     end
   end
 end
