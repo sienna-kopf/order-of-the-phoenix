@@ -5,7 +5,7 @@
         "lines": [
           1,
           1,
-          1,
+          0,
           null,
           null,
           null,
@@ -15,18 +15,19 @@
           null
         ]
       },
-      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/controllers/welcome_controller.rb": {
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/services/harry_potter_service.rb": {
         "lines": [
+          1,
+          1,
           1,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/controllers/application_controller.rb": {
-        "lines": [
+          null,
+          1,
+          null,
           1,
           1,
+          null,
           null
         ]
       },
@@ -49,8 +50,86 @@
         "branches": {
         }
       },
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/facades/search_facade.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/poros/member.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/jobs/application_job.rb": {
         "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/controllers/search_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/cece/turing/3mod/mid-mod/order-of-the-phoenix/app/controllers/welcome_controller.rb": {
+        "lines": [
+          0,
+          0,
           0,
           0
         ],
@@ -78,6 +157,6 @@
         }
       }
     },
-    "timestamp": 1598975131
+    "timestamp": 1598978475
   }
 }
