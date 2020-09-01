@@ -16,9 +16,30 @@ RSpec.describe "from the home page" do
 
       within (first(".member")) do
         expect(page).to have_css(".name")
-        expect(page).to have_css(".role")
+        name = find('.name').text
+        expect(name).not_to be_empty
+
         expect(page).to have_css(".house")
-        expect(page).to have_css(".Patronus")
+        house = find('.house').text
+        expect(house).not_to be_empty
+      end
+
+      within (page.all(".member")[1]) do
+        expect(page).to have_css(".name")
+        name = find('.name').text
+        expect(name).not_to be_empty
+
+        expect(page).to have_css(".role")
+        role = find('.role').text
+        expect(role).not_to be_empty
+
+        expect(page).to have_css(".house")
+        house = find('.house').text
+        expect(house).not_to be_empty
+
+        expect(page).to have_css(".patronus")
+        patronus = find('.patronus').text
+        expect(patronus).not_to be_empty
       end
 
   # And for each of the members I should see:
