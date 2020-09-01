@@ -1,0 +1,22 @@
+<h1>Members of the Order of the Phoenix for <%= params[:house] %> House </h1>
+
+<% @members.each do |member| %>
+  <section class="member">
+    <p class="name">
+      Name: <%= member.name %>
+    </p>
+    <% if !member.role.nil? %>
+      <p class="role">
+        Role: <%= member.role %>
+      </p>
+    <% end %>
+    <p class="house">
+      House: <%= member.house %>
+    </p>
+    <% if !member.patronus.nil? %>
+      <p class="patronus">
+        patronus: <%= member.patronus %>
+      </p>
+    <% end %>
+  </section>
+<% end %>
